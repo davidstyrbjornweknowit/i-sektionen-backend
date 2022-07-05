@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_utility_members",
+  "info": {
+    "displayName": "member",
+    "icon": "user-edit"
+  },
+  "options": {},
+  "attributes": {
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "post": {
+      "type": "string",
+      "required": true,
+      "default": "Ingen post given"
+    },
+    "contact_info": {
+      "type": "string",
+      "required": true,
+      "default": "Inga kontaktuppgifter given"
+    }
+  }
+}

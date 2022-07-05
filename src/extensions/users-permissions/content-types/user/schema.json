@@ -63,24 +63,6 @@
       "inversedBy": "users",
       "configurable": false
     },
-    "associations": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::association.association",
-      "inversedBy": "users"
-    },
-    "committees": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::committee.committee",
-      "inversedBy": "users"
-    },
-    "sections": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "api::section.section",
-      "inversedBy": "users"
-    },
     "liu_id": {
       "type": "string"
     },
@@ -89,6 +71,12 @@
       "relation": "manyToMany",
       "target": "api::event.event",
       "inversedBy": "users"
+    },
+    "bookings": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::booking.booking",
+      "mappedBy": "user"
     }
   }
 }

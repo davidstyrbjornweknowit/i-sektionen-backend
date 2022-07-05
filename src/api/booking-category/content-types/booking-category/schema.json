@@ -1,0 +1,23 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_categories",
+  "info": {
+    "singularName": "booking-category",
+    "pluralName": "booking-categories",
+    "displayName": "BookingCategory"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

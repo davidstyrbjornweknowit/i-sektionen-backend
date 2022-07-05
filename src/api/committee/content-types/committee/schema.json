@@ -4,7 +4,8 @@
   "info": {
     "singularName": "committee",
     "pluralName": "committees",
-    "displayName": "committee"
+    "displayName": "committee",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,11 +16,30 @@
       "type": "string",
       "required": true
     },
-    "users": {
-      "type": "relation",
-      "relation": "manyToMany",
-      "target": "plugin::users-permissions.user",
-      "inversedBy": "committees"
+    "about": {
+      "type": "richtext",
+      "required": true
+    },
+    "contact_info": {
+      "type": "richtext",
+      "required": true
+    },
+    "images": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "video_link": {
+      "type": "string"
+    },
+    "members": {
+      "type": "component",
+      "repeatable": true,
+      "component": "utility.member",
+      "required": true
     }
   }
 }
