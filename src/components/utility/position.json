@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_utility_positions",
+  "info": {
+    "displayName": "Position",
+    "icon": "arrows-alt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "latitude": {
+      "type": "biginteger",
+      "required": true,
+      "default": "0"
+    },
+    "longitude": {
+      "type": "biginteger",
+      "required": true,
+      "default": "0"
+    },
+    "name": {
+      "type": "string",
+      "default": "inget namn",
+      "required": true
+    }
+  }
+}

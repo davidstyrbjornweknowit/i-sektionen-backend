@@ -77,6 +77,11 @@
       "relation": "oneToMany",
       "target": "api::booking.booking",
       "mappedBy": "user"
+    },
+    "present": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }

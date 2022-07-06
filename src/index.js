@@ -16,5 +16,14 @@ module.exports = {
    * This gives you an opportunity to set up your data model,
    * run jobs, or perform some special logic.
    */
-  bootstrap(/*{ strapi }*/) {},
+  bootstrap({ strapi }) {
+  //   const entries = await strapi.db.query('plugin::users-permissions.user').findMany({
+  //     where: {
+  //       updatedAt: {
+  //         $: 'd'
+  //       }
+  //     }
+  //   })
+  //   console.log("USERS: ", entries);
+  },
 };
