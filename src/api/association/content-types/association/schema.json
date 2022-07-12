@@ -21,9 +21,10 @@
       "required": true
     },
     "contact_info": {
-      "type": "richtext"
+      "type": "richtext",
+      "required": true
     },
-    "images": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
