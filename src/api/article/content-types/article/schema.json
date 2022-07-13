@@ -35,11 +35,6 @@
       "relation": "oneToOne",
       "target": "api::association.association"
     },
-    "committee": {
-      "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::committee.committee"
-    },
     "deadline": {
       "type": "datetime"
     }

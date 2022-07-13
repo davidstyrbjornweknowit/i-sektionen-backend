@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- *  committee controller
+ *  group controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::committee.committee');
+module.exports = createCoreController('api::group.group');

@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * committee router.
+ * group router.
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::committee.committee');
+module.exports = createCoreRouter('api::group.group');

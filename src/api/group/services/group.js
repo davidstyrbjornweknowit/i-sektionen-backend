@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * committee service.
+ * group service.
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::committee.committee');
+module.exports = createCoreService('api::group.group');
