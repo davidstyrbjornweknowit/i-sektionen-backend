@@ -37,6 +37,11 @@
     },
     "deadline": {
       "type": "datetime"
+    },
+    "group": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::group.group"
     }
   }
 }
