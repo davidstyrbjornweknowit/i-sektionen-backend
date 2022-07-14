@@ -8,14 +8,14 @@
   "options": {},
   "attributes": {
     "latitude": {
-      "type": "biginteger",
+      "type": "decimal",
       "required": true,
-      "default": "0"
+      "default": 1
     },
     "longitude": {
-      "type": "biginteger",
+      "type": "decimal",
       "required": true,
-      "default": "0"
+      "default": 1
     },
     "name": {
       "type": "string",
