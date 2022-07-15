@@ -44,6 +44,16 @@
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::tag.tag"
+    },
+    "association": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::association.association"
+    },
+    "group": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::group.group"
     }
   }
 }
