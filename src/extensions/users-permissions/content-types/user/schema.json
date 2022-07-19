@@ -64,7 +64,9 @@
       "configurable": false
     },
     "liu_id": {
-      "type": "string"
+      "type": "string",
+      "required": true,
+      "default": "liuid123"
     },
     "events": {
       "type": "relation",
@@ -84,18 +86,28 @@
       "required": true
     },
     "profile_picture": {
-      "allowedTypes": [
-        "images"
-      ],
       "type": "media",
       "multiple": false,
-      "required": false
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
     },
     "meetings": {
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::meeting.meeting",
       "mappedBy": "users"
+    },
+    "ipikure": {
+      "type": "boolean",
+      "default": false,
+      "required": true
+    },
+    "gdpr": {
+      "type": "boolean",
+      "default": false,
+      "required": true
     }
   }
 }
