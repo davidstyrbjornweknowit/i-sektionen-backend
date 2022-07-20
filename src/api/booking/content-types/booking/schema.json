@@ -28,7 +28,7 @@
       "inversedBy": "bookings"
     },
     "date": {
-      "type": "date",
+      "type": "datetime",
       "required": true
     },
     "booking_category": {
