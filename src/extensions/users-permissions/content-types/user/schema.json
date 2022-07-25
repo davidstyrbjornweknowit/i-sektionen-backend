@@ -108,6 +108,24 @@
       "type": "boolean",
       "default": false,
       "required": true
+    },
+    "program": {
+      "type": "enumeration",
+      "enum": [
+        "Program1",
+        "Program2"
+      ],
+      "default": "Program1",
+      "required": true
+    },
+    "orientation": {
+      "type": "enumeration",
+      "enum": [
+        "Inriktning1",
+        "Inriktning2"
+      ],
+      "default": "Inriktning1",
+      "required": true
     }
   }
 }
