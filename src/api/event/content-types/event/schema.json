@@ -28,10 +28,6 @@
       "component": "utility.position",
       "required": false
     },
-    "description": {
-      "type": "text",
-      "required": true
-    },
     "start_date": {
       "type": "datetime",
       "required": true
@@ -54,6 +50,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::group.group"
+    },
+    "description": {
+      "type": "richtext",
+      "default": "beskrivning av event",
+      "required": true
     }
   }
 }
